@@ -10,9 +10,27 @@
             color: #333;
             text-align: center;
         }
+        .pdf {
+            width: 100%;
+            aspect-ratio: 4 / 3;
+        }
+
+        .pdf,
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
     </style>
 </head>
 <body>
-    <h1>Here's my resume</h1>
+    <h1>My resume</h1>
+    <object class="pdf"
+            data=
+                    "/MichaelResume2024.pdf"
+            width="800"
+            height="500">
+    </object>
 </body>
 </html>
